@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(135deg, #e3f2fd 0%, #90caf9 100%);
+    font-family: 'Kanit', Tahoma, Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    color: #1565c0;
+    margin-bottom: 24px;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 8px #90caf9;
+}
+.form-container {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(30, 136, 229, 0.18);
+    display: inline-block;
+    padding: 32px 40px 24px 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-width: 320px;
+}
+label {
+    display: block;
+    margin: 18px 0 8px 0;
+    font-size: 1.1em;
+    color: #1976d2;
+}
+input {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #90caf9;
+    font-size: 1em;
+    width: 80%;
+    margin-bottom: 8px;
+    transition: border 0.2s;
+}
+input:focus {
+    border: 1.5px solid #1976d2;
+    outline: none;
+}
+button {
+    margin-top: 18px;
+    padding: 10px 32px;
+    background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px 0 rgba(25, 118, 210, 0.12);
+    transition: background 0.2s;
+}
+button:hover {
+    background: linear-gradient(90deg, #1565c0 60%, #42a5f5 100%);
+}
+#result {
+    margin-top: 24px;
+    font-size: 1.3em;
+    color: #0d47a1;
+    font-weight: bold;
+    text-shadow: 1px 1px 6px #bbdefb;
+    letter-spacing: 1px;
+}
